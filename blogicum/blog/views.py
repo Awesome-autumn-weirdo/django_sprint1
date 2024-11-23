@@ -73,3 +73,4 @@ def category_posts(request, category_slug) -> HttpResponse:
         'category': category_slug,
     }
     return render(request, template, context)
+

@@ -12,3 +12,4 @@ def rules(request) -> HttpResponse:
     """Правила проекта."""
     template: str = 'pages/rules.html'
     return render(request, template)
+
