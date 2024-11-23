@@ -8,4 +8,3 @@ urlpatterns: list = [
     path('about/', views.about, name='about'),
     path('rules/', views.rules, name='rules'),
 ]
-
